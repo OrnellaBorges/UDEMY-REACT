@@ -2,17 +2,17 @@ import React from "react";
 import TabButton from "./TabButton";
 
 const Notes = () => {
-  function handleSelect(selectedButton) {
-    // selectedButton => "components", "jsx", "props", "state" en string
-    console.log(selectedButton);
-  }
-  return (
-    <div>
-      <TabButton onClick={handleSelect}>State</TabButton>
-      <TabButton onClick={handleSelect()}>State</TabButton>
-      <TabButton onClick={() => handleSelect("State")}>State</TabButton>
-    </div>
-  );
+    function handleSelect(selectedButton) {
+        // selectedButton => "components", "jsx", "props", "state" en string
+        console.log(selectedButton);
+    }
+    return (
+        <div>
+            <TabButton onClick={handleSelect}>State</TabButton>
+            <TabButton onClick={handleSelect()}>State</TabButton>
+            <TabButton onClick={() => handleSelect("State")}>State</TabButton>
+        </div>
+    );
 };
 
 export default Notes;
