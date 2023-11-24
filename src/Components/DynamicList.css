@@ -13,7 +13,7 @@ ul {
     padding: 0;
 }
 
-li {
+.list {
     list-style: none;
     margin: 1rem;
     padding: 1rem;
