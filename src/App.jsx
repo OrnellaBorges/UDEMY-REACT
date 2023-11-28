@@ -11,30 +11,38 @@ import DynamicList from "./Components/DynamicListContent";
 import Examples from "./Components/Examples";
 import Section from "./Components/Section";
 
+import FlexibleComponent from "./Components/FlexibleComponent";
+
 import "./index.css";
+
+import "./Components/Styles/style.css";
 function App() {
-    return (
-        <>
-            <Header />
-            <main>
-                <Section title="Core Concept" id="core-concepts">
-                    <CoreConcept2 />
-                </Section>
-                <Examples />
+  return (
+    <>
+      <Header />
+      <main>
+        <Section title="Core Concept" id="core-concepts">
+          <CoreConcept2 />
+        </Section>
+        <Examples />
 
-                <FormContainer />
+        <FormContainer />
 
-                <section>
-                    <h2>Les exercices</h2>
-                    <Practice4 />
-                    <Practice5 />
-                    <Popup />
-                    <DynamicStyle />
-                    <DynamicList />
-                </section>
-            </main>
-        </>
-    );
+        <section>
+          <h2>Les exercices</h2>
+          <Practice4 />
+          <Practice5 />
+          <Popup />
+          <DynamicStyle />
+          <DynamicList />
+        </section>
+
+        <section className="section">
+          <FlexibleComponent />
+        </section>
+      </main>
+    </>
+  );
 }
 
 export default App;

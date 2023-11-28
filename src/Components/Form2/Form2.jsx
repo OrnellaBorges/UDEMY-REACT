@@ -18,7 +18,7 @@ function Form2() {
       </p>
 
       <p id="actions">
-        <button>Create User</button>
+        <button className="formButton">Create User</button>
       </p>
     </div>
   );

@@ -1,4 +1,4 @@
-import "./style.css";
+import "./Styles/style.css";
 
 export default function CourseGoal({ title, description }) {
   return (

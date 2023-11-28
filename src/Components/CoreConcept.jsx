@@ -1,5 +1,5 @@
 import React from "react";
-import "./CoreConcept.css";
+import "./Styles/CoreConcept.css";
 
 //MON COMPOSANT avec destructuration => plus court
 

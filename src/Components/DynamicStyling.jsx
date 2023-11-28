@@ -1,19 +1,19 @@
 import React from "react";
 import { useState } from "react";
-import "./DynamicStyle.css";
+import "./Styles/DynamicStyle.css";
 
 // don't change the Component name "App"
 export default function App() {
-    const [highlighted, setHighlighted] = useState(false);
+  const [highlighted, setHighlighted] = useState(false);
 
-    function handleClick() {
-        setHighlighted((isHighlighted) => !isHighlighted);
-    }
+  function handleClick() {
+    setHighlighted((isHighlighted) => !isHighlighted);
+  }
 
-    return (
-        <div className="styled">
-            <p className={highlighted ? "activ" : undefined}>Style me!</p>
-            <button onClick={handleClick}>Toggle style</button>
-        </div>
-    );
+  return (
+    <div className="styled">
+      <p className={highlighted ? "activ" : undefined}>Style me!</p>
+      <button onClick={handleClick}>Toggle style</button>
+    </div>
+  );
 }
