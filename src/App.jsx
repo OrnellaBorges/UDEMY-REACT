@@ -20,9 +20,7 @@ function App() {
                 <Section title="Core Concept" id="core-concepts">
                     <CoreConcept2 />
                 </Section>
-                <Section title="Examples" id="Examples">
-                    <Examples />
-                </Section>
+                <Examples />
 
                 <FormContainer />
 
